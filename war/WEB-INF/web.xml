@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	version="2.5">
+	
+	<listener>
+	<listener-class>
+		 org.springframework.web.context.ContextLoaderListener
+	</listener-class>
+	</listener>
+	
+	<!-- Servlet Mappings -->
+	
+	<servlet>
+		<servlet-name>serviceImpl</servlet-name>
+		<servlet-class>com.smt.server.ServiceImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>serviceImpl</servlet-name>
+		<url-pattern>/app/userService</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>session</servlet-name>
+		<servlet-class>com.smt.server.SessionImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>session</servlet-name>
+		<url-pattern>/app/session</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>autoLogoutImp</servlet-name>
+		<servlet-class>com.smt.server.AutoLogoutImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>autoLogoutImp</servlet-name>
+		<url-pattern>/app/autoLogout</url-pattern>
+	</servlet-mapping>
+
+	<session-config>
+		<session-timeout>1</session-timeout>
+	</session-config>
+
+	<servlet>
+		<servlet-name>requestForm</servlet-name>
+		<servlet-class>com.smt.server.RequestImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>requestForm</servlet-name>
+		<url-pattern>/app/request</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>stock</servlet-name>
+		<servlet-class>com.smt.server.StockImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>stock</servlet-name>
+		<url-pattern>/app/stock</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>vendors</servlet-name>
+		<servlet-class>com.smt.server.VendorListServiceImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>vendors</servlet-name>
+		<url-pattern>/app/vendorList</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>poser</servlet-name>
+		<servlet-class>com.smt.server.POServiceImp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>poser</servlet-name>
+		<url-pattern>/app/po</url-pattern>
+	</servlet-mapping>
+</web-app>

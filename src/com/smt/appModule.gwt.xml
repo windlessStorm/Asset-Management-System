@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- When updating your version of GWT, you should also update this DTD reference, 
+	so that your app can take advantage of the latest GWT module capabilities. -->
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN" "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to="app">
+	<!-- Inherit the core Web Toolkit stuff. -->
+	<inherits name="com.google.gwt.user.User" />
+	<!-- inheriting Crypto for password encription and Log4j for logging -->
+	<inherits name='com.googlecode.gwt.crypto.Crypto' />
+<!-- 	<inherits name="org.apache.log4j.Log4j" /> -->
+	<source path="client" />
+	<!-- servlet classes -->
+	<servlet path="/autoLogout" class="com.smt.server.AutoLogoutImp" />
+	<servlet class="com.smt.server.RequestImp" path="/request" />
+	<servlet class="com.smt.server.StockImp" path="/stock" />
+	<!-- Specify the app entry point class. -->
+	<entry-point class="com.smt.client.MainFunc" />
+</module>

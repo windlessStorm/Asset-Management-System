@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.requestHistory.ReqService
+path: 92CDCF2F88A1654D787B34D6F87A307E.gwt.rpc

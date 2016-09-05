@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.admin.VendorListService
+path: B2B0FC30873B373EDBEBD04C3B7B15D6.gwt.rpc

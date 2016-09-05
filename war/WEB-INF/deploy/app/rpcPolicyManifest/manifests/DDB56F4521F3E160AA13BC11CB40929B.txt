@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.login.session.SessionService
+path: 797FEA75C7BA62C859F66AA12C37B902.gwt.rpc

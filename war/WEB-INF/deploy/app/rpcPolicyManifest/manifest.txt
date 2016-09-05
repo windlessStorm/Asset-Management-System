@@ -1,0 +1,9 @@
+# Module app
+# RPC service class, partial path of RPC policy file
+com.smt.client.login.user.Service, B3CA46F95AC5731734E768DD470DC26B.gwt.rpc
+com.smt.client.admin.VendorListService, B2B0FC30873B373EDBEBD04C3B7B15D6.gwt.rpc
+com.smt.client.admin.POService, 3ADBD95F9114B111D4C5016589319145.gwt.rpc
+com.smt.client.requestHistory.ReqService, 92CDCF2F88A1654D787B34D6F87A307E.gwt.rpc
+com.smt.client.stock.StockService, C8B9C8E42D49DB71DFD67B04D9894104.gwt.rpc
+com.smt.client.autoLogout.AutoLogoutService, 214FAB51B48828B804043027F352E6A2.gwt.rpc
+com.smt.client.login.session.SessionService, 797FEA75C7BA62C859F66AA12C37B902.gwt.rpc

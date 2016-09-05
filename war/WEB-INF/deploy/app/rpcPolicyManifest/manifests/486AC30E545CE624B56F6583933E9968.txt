@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.stock.StockService
+path: C8B9C8E42D49DB71DFD67B04D9894104.gwt.rpc

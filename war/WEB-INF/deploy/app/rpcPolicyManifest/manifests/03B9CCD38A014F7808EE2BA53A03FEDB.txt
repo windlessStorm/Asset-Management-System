@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.login.user.Service
+path: B3CA46F95AC5731734E768DD470DC26B.gwt.rpc

@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.admin.POService
+path: 3ADBD95F9114B111D4C5016589319145.gwt.rpc

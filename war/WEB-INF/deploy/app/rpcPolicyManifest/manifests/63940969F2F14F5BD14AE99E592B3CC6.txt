@@ -1,0 +1,2 @@
+serviceClass: com.smt.client.autoLogout.AutoLogoutService
+path: 214FAB51B48828B804043027F352E6A2.gwt.rpc

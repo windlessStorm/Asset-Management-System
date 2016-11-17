@@ -1,1 +1,2 @@
 # Asset-Management-System-Using-GWT
+#TODO ADD MORE DETAIL EXPLAININ THE PROJECT
